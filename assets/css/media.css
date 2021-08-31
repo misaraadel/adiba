@@ -1,0 +1,146 @@
+@media(max-width: 900px)
+{
+    h1,h2,h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 18px !important;
+    }
+    h5 {
+        font-size: 16px !important;
+    }
+    h6 {
+        font-size: 14px !important;
+    }
+    p , a , li {
+        font-size: 11px !important;
+    }
+    .mobile-none{
+        display: none !important;
+    }
+    .mobile-block{
+        display: block;
+    }
+    .mobile-full-width ,
+    .general-product-card .imgae-content ,
+    .general-product-card .imgae-content .details ,
+    .category-box .image-content ,
+    .category-box .image-content img ,
+    .email-content .form-content ,  .email-content{
+        width: 100% !important;
+    }
+    .bottom-nav{
+        display: flex !important;
+    }
+    .important-products .nav li a ,
+    .general-product-card .content h3 a{
+        font-size: 14px !important;
+    }
+    .general-product-card .imgae-content ,
+    .category-box .image-content ,
+    .category-box .image-content img{
+        height: 120px !important;
+    }
+    .general-product-card .imgae-content,
+    .general-product-card .imgae-content img ,
+    .category-box .image-content ,
+    .category-box .image-content img{
+        border-radius: 10px !important;
+    }
+    .general-product-card .content .rate i ,
+    .general-product-card .content .money .after ,
+    .general-product-card .content .money .before ,
+    .category-box .content h3 a ,
+    .banners .banner .content h6{ 
+        font-size: 10px !important;
+    }
+    .banners .banner .content p ,
+    footer .card-body ul.links li a, footer .content ul.links li a{
+        font-size: 15px !important;
+    }
+    .general-product-card , .category-box{
+        border-radius: 18px !important;
+    }
+    .general-product-card .content .rate{
+        margin: 10px 0px !important;
+    }
+    .general-product-card , .category-box , .panel-body ,  .padding-none ,
+    .cart-shape .cart-items .product-content .product-cart-box{
+        padding: 0px !important;
+    }
+    .navbar .medium-nav .search-cart-content{
+        justify-content: space-around !important;
+    }
+    .custom-button {
+        padding: 10px 20px !important;
+    }
+    header .swipper-header .swiper-slide::after{
+        display: none !important;
+    }
+    header .content{
+        padding: 100px 0px 50px 0px;
+    }
+    header .swiper-container-horizontal > .swiper-pagination-bullets{
+        transform: translateY(50%);
+    }
+    .banners .banner{
+        border-radius: 10px !important;
+    }
+    .banners .banner .content{
+        padding: 16px 0px;
+    }
+    .custom-padding{
+        padding: 0px 5px;
+    }
+    .general-product-card .imgae-content img{
+        height: 90% !important;
+    }
+    .general-product-card .imgae-content .details{
+        padding: 10px !important;
+    }
+    .general-product-card .imgae-content .details i{
+        font-size: 14px;
+    }
+    .video-box{
+        height: 100px;
+        border-radius: 14px !important;
+    }
+    .general-section{
+        padding: 20px 0px 20px 0px !important;
+    }
+    .store-features .feature-box{
+        margin-bottom: 50px;
+    }
+    footer .copyrights , 
+    .email-content  {
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 50px !important;
+    }
+    .email-content {
+        padding: 11px 0px !important;
+        border-radius: 14px;
+    }
+    .email-content input::placeholder{
+        font-size: 9px !important;
+    }
+    .email-content input {
+        width: 94%;
+        margin: auto;
+    }
+    html[dir='ltr'] header .swiper-container-horizontal > .swiper-pagination-bullets {
+        left: 93% !important;
+    }
+    header .gallery-thumbs .swiper-slide {
+        width: 50px !important;
+        height: 50px !important;
+        border-radius: 10px;
+    }
+    header .gallery-thumbs .swiper-wrapper{
+        margin-top: 50px !important;
+    }
+    header .gallery-thumbs .swiper-slide-thumb-active {
+        border-radius: 50% !important;
+    }
+
+}
